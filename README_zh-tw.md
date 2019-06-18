@@ -130,7 +130,7 @@ export CAFFE_ROOT=/path/to/caffe
 如果你還沒安裝 [Docker](https://www.docker.com/) 請先安裝它，接著執行以下指令來拉取與執行一個完整的 Caffe + DIGITS 容器。
 
 ```bash
-git clone https://github.com/humphd/have-fun-with-machine-learning
+git clone https://github.com/rowennetfinder555/have-fun-with-machine-learning
 docker run --name digits -d -p 8080:5000 -v $(pwd)/have-fun-with-machine-learning:/data/repo kaixhin/digits
 ```
 

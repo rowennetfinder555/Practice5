@@ -317,7 +317,7 @@ where higher is better) and what our **Loss** is (the sum of all the mistakes th
 made, where lower is better).  Ideally we want a network that is able to predict with
 high accuracy, and with few errors (small loss).
 
-**NOTE:** some people have [reported hitting errors in DIGITS](https://github.com/humphd/have-fun-with-machine-learning/issues/17)
+**NOTE:** some people have [reported hitting errors in DIGITS](https://github.com/rowennetfinder555/have-fun-with-machine-learning/issues/17)
 doing this training run. For many, the problem related to available memory (the process
 needs a lot of memory to work).  If you're using Docker, you might want to try
 increasing the amount of memory available to DIGITS (in Docker, preferences -> advanced -> memory).
